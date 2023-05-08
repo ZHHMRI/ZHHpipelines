@@ -26,7 +26,7 @@
     ],
     "NEW_Resting_PA_SBRef":[
         "func",
-        "task-rest_acq-PA_run-01_sbref",
+        "task-rest_acq-PA_sbref",
         "UNASSIGNED"
     ],
     "New_Resting_PA_PMU":[
@@ -71,7 +71,7 @@
     ],
     "NEW_Resting_PA":[
         "func",
-        "task-rest_acq-PA_run-01_bold",
+        "task-rest_acq-PA_bold",
         "UNASSIGNED"
     ],
     "N-BACK_SBRef":[
@@ -312,6 +312,16 @@
         "task-MID_acq-AP_bold",
         "UNASSIGNED"
     ],
+    "MID_Task_PA_SBRef":[
+        "func",
+        "task-MID_acq-PA_sbref",
+        "UNASSIGNED"
+    ],
+    "MID_Task_PA":[
+        "func",
+        "task-MID_acq-PA_bold",
+        "UNASSIGNED"
+    ],
     "MID_PA_SBRef":[
         "func",
         "task-MID_acq-PA_sbref",
@@ -483,7 +493,7 @@
          "task-MID_acq-AP_run-02_bold",      "task-MID_acq-PA_run-02_bold",
          "task-StockMarket_acq-PA_bold",
          "task-stroop_acq-PA_run-01_bold",
-         "task-sst_acq-PA_run-01_bold",
+         "task-sst_acq-PA_run-01_bold", "task-sst_acq-AP_run-01_bold",
          "task-nback_acq-PA_run-01_bold"]
     ],
     "BIAS_BC":[
@@ -570,7 +580,7 @@
          "task-MID_acq-AP_run-02_bold", "task-MID_acq-PA_run-02_bold",
          "task-StockMarket_acq-PA_bold",
          "task-stroop_acq-PA_run-01_bold",
-         "task-sst_acq-PA_run-01_bold",
+         "task-sst_acq-PA_run-01_bold", "task-sst_acq-AP_run-01_bold",
          "task-nback_acq-PA_run-01_bold"]
     ],
     "Auditory":[
@@ -643,6 +653,11 @@
         "task-sst_acq-PA_run-01_bold",
         "UNASSIGNED"
     ],
+    "SST_AP":[
+        "func",
+        "task-sst_acq-AP_run-01_bold",
+        "UNASSIGNED"
+    ],
     "NBACK_PA":[
         "func",
         "task-nback_acq-PA_run-01_bold",
@@ -658,6 +673,11 @@
         "task-sst_acq-PA_run-01_sbref",
         "UNASSIGNED"
     ],  
+    "SST_AP_SBRef":[
+        "func",
+        "task-sst_acq-AP_run-01_sbref",
+        "UNASSIGNED"
+    ],  
     "NBACK_PA_SBRef":[
         "func",
         "task-nback_acq-PA_run-01_sbref",
@@ -666,11 +686,11 @@
     "dMRI_DistortionMap_AP":[
        "fmap",
        "dir-AP_run-02_epi",
-       "run-01_dwi"
+       ["run-01_dwi"]
        ],
     "dMRI_DistortionMap_PA":[
        "fmap",
        "dir-PA_run-02_epi",
-       "run-01_dwi"
-       ]   
+       ["run-01_dwi"]
+       ]
 }
