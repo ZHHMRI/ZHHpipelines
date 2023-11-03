@@ -139,6 +139,38 @@
         "task-NbackFE_acq-PA_bold",
         "UNASSIGNED"
     ],
+    "finger_tapping_left_SBRef":[
+        "func",
+        "task-fingertapping_acq-left_SBRef_sbref",
+        "UNASSIGNED"
+    ],
+    "finger_tapping_left":[
+        "func",
+        "task-fingertapping_acq-left_SBRef_bold",
+        "UNASSIGNED"
+    ],
+
+    "finger_tapping_right_SBRef":[
+        "func",
+        "task-fingertapping_acq-right_sbref",
+        "UNASSIGNED"
+    ],
+    "finger_tapping_right":[
+        "func",
+        "task-fingertapping_acq-right_bold",
+        "UNASSIGNED"
+    ],
+
+    "finger_tapping_both_SBRef":[
+        "func",
+        "task-fingertapping_acq-both_sbref",
+        "UNASSIGNED"
+    ],
+    "finger_tapping_both":[
+        "func",
+        "task-fingertapping_acq-both_bold",
+        "UNASSIGNED"
+    ],
     "Tongue1_SBRef":[
         "func",
         "task-tongue1_acq-AP_run-01_sbref",
